@@ -1,0 +1,13 @@
+.myLocation {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px 0 rgba(16, 76, 93, 0.4);
+    -webkit-box-shadow: 0 5px 20px 0 rgba(16, 76, 93, 0.4);
+    color: hsl(0, 0%, 40%);
+    border-radius: 6px;
+}
+
+.search-btn {
+    background-color: rgb(37, 4, 4);
+    box-shadow: 0 2px 40px 0 hsl(0, 0%, 0%, 0.08);
+    -webkit-box-shadow: 0 2px 40px 0 hsl(0, 0%, 0%, 0.08);
+}

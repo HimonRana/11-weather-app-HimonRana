@@ -1,0 +1,25 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px 0 rgba(16, 76, 93, 0.4);
+    -webkit-box-shadow: 0 5px 20px 0 rgba(16, 76, 93, 0.4);
+    color: hsl(0, 0%, 40%);
+    border-radius: 6px;
+    border: none !important;
+    
+}
+
+li:first-child {
+    border: none;
+    margin: 0;
+    list-style-type: none;
+}
+
+img {
+    background-size: 1.5em;
+}
+
+.btn-secondary {
+    margin-bottom: 0;
+    align-items: center;
+}
