@@ -24,6 +24,7 @@ class Form extends Component {
       longitude: 0
     }
     this.success = this.success.bind(this);
+    this.error = this.error.bind(this);
     this.handleClick = this.handleClick.bind(this);
 
   }
@@ -41,7 +42,12 @@ class Form extends Component {
   }
   
   error() {
-    alert("Sorry, no position available.");
+    alert("Sorry, your position is not available. We show you Stockholms weather.");
+    this.setState({
+      latitude: 59.32932349999999,
+      longitude: 18.068580800000063
+    })
+    this.getWeather();
   }
 
   handleClick() {
